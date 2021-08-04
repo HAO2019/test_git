@@ -3,5 +3,5 @@ import configparser
 class  DoConf():
     def doconf(self,section,option):
         con=configparser.ConfigParser()
-        haoa=con.get(section,option)
-        return haoa
+        hao=con.get(section,option)
+        return hao
